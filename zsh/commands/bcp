@@ -1,3 +1,4 @@
+#!/bin/sh
 ### BREW + FZF
 # uninstall multiple packages at once, async
 # mnemonic [B]rew [C]lean [P]lugin

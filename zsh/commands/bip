@@ -1,3 +1,4 @@
+#!/bin/sh
 ### BREW + FZF
 # update multiple packages at once
 # mnemonic [B]rew [I]nstall [P]lugin
