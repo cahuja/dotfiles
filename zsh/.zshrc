@@ -70,9 +70,17 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  alias-tips
+  common-aliases
+  fasd
+  fzf
+  emoji
   git
+  osx
+  ripgrep
   zsh-syntax-highlighting
   zsh-autosuggestions
+  tmux
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -110,25 +118,5 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 export LDFLAGS="-L/usr/local/opt/readline/lib"
 export CPPFLAGS="-I/usr/local/opt/readline/include"
 
-#typeset -a source_files
-
-#for file in /Users/cahuja/Code/dotfiles/zsh/aliases/*; do
-#	source_files+="$file"
-#done
-#echo $source_files
-#for file in $source_files[@]; do
-#	if [[ -a "$file" ]]; then
-#		source $file
-#	fi
-#done
-#
-#
-
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Add custom executable scripts to path
-#if [[ ! "$PATH" == *~/Code/dotfiles/zsh/commands* ]]; then
-#  export PATH="${PATH:+${PATH}:}~/Code/dotfiles/zsh/commands"
-#fi
 
