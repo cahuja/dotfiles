@@ -120,6 +120,7 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 export LDFLAGS="-L/usr/local/opt/readline/lib"
 export CPPFLAGS="-I/usr/local/opt/readline/include"
 
+export FZF_BASE=/home/linuxbrew/.linuxbrew/bin/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 ## Load zsh completions
