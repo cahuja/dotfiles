@@ -120,3 +120,8 @@ export CPPFLAGS="-I/usr/local/opt/readline/include"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+## Load zsh completions
+autoload -U compinit && compinit
+
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.zsh/cache

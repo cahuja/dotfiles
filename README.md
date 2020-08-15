@@ -14,10 +14,13 @@ brew install tmux stow fasd ripgrep fzf
 
 ```
 git clone https://github.com/djui/alias-tips.git ${ZSH_CUSTOM:-$ZSH/custom}/plugins/alias-tips
+git clone https://github.com/mafredri/zsh-async.git ${ZSH_CUSTOM:-$ZSH/custom}/plugins/async
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-$ZSH/custom}/plugins/zsh-completions
+## common-aliases, extract, fasd, history and tmux are already installed
 ```
 
 ### Install configuration
 
 ```
-stow zsh vim
+stow zsh vim 
 ```
