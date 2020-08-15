@@ -128,10 +128,4 @@ autoload -U compinit && compinit
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
 
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
-alias plexpp=/home/cahuja/Repos/PlexPostProc/PlexPostProc.sh
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
