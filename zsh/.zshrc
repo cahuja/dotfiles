@@ -81,6 +81,8 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   tmux
+  history
+  zsh-completions
 )
 
 source $ZSH/oh-my-zsh.sh
